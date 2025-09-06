@@ -1,12 +1,9 @@
 terraform {
   required_providers {
     tencentcloud = {
-      source  = "TencentCloud/tencentcloud"
+      source  = "tencentcloudstack/tencentcloud"
       version = "~> 1.81.0"
     }
-  }
-  provider_installation {
-    direct {}
   }
 }
 
