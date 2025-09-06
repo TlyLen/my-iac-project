@@ -5,6 +5,9 @@ terraform {
       version = "~> 1.81.0"
     }
   }
+  provider_installation {
+    direct {}
+  }
 }
 
 provider "tencentcloud" {
